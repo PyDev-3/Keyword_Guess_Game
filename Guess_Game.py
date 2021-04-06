@@ -73,11 +73,11 @@ def get_input(word, cur_word, index_val, wrong_guess, remain_attempts):
 
 def generate_random():
     # generate one random word from collection
-    collection = ['number', 'lot', 'set', 'store', 'cluster', 'batch',
-                  'digest', 'clump', 'combine', 'hoard', 'crowd', 'pile',
-                  'company', 'kit', 'levy', 'master', 'kid', 'pair',
-                  'lot', 'stock', 'stack', 'secure', 'index', 'goal',
-                  'home', 'key', 'public', 'get', 'private', 'focus'
+    collection = ['algorithm', 'api', 'gui', 'argument', 'compile',
+                  'bug', 'client', 'stub', 'driver', 'object',
+                  'code', 'throw', 'stub', 'backend', 'token',
+                  'syntax', 'source', 'pointer', 'operand', 'debug',
+                  'framework', 'binary', 'bit', 'semantic', 'main'
                   ]
     try:
         word = random.choice(collection).lower()
