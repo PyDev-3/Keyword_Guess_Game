@@ -2,8 +2,9 @@
 # What does the project do?
 Word guessing game developed in Python. 
 # How does it work?
-Random word  will be generated from collection of words.
-First letter of a selected word is shown to a user.
-User will get some specific attempts to get a word.
-Each input is validated through a function is_valid().
-User will win a game if user guessed word is equal to selected word.
+1. Collection of word contains around 50 programming terms.
+2. First letter of a word will be shown to a user.
+3. User needs to guess remaining letter of a word.
+4. 'int' input is invalid also at each attempt length of input should be 1.
+# installation
+No installation needed.
