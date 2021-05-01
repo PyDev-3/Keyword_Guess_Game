@@ -1,10 +1,9 @@
 ## PyGame
-# What does the project do?
-Word guessing game developed in Python. 
 # How does it work?
-1. Collection of word contains around 50 programming terms.
-2. First letter of a word will be shown to a user.
-3. User needs to guess remaining letter of a word.
-4. 'int' input is invalid also at each attempt length of input should be 1.
+1. This game contains around 50 programming/developer terms.
+2. On start, random word will be taken from list collection. 
+3. First letter of a word will be shown to a user. User needs to guess remaining letter of a word in some specific attempts.
+   (only string input of length 1 is valid.)
+4. Guess word correctly in specific attempts to win the game.
 # installation
 No installation needed.
